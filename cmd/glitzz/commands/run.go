@@ -34,7 +34,9 @@ func runRun(c guinea.Context) error {
 
 	con := irc.IRC(conf.Nick, conf.User)
 	con.UseTLS = conf.TLS
-	con.TLSConfig = &tls.Config{InsecureSkipVerify: true}
+	con.TLSConfig = &tls.Config{
+		InsecureSkipVerify: true
+	}
 	if err = con.Connect(conf.Server); err != nil {
 		return errors.Wrap(err, "connection failed")
 	}
