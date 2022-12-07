@@ -2,8 +2,8 @@ package main
 
 import (
 	"github.com/boreq/guinea"
-	"github.com/lovelaced/glitzz/cmd/glitzz/commands"
-	"github.com/lovelaced/glitzz/logging"
+	"github.com/bheru27/glitzz/cmd/glitzz/commands"
+	"github.com/bheru27/glitzz/logging"
 	"github.com/pkg/errors"
 	"math/rand"
 	"os"
