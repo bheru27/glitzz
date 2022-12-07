@@ -2,12 +2,12 @@ package info
 
 import (
 	"fmt"
-	"github.com/lovelaced/glitzz/config"
-	"github.com/lovelaced/glitzz/core"
+	"github.com/bheru27/glitzz/config"
+	"github.com/bheru27/glitzz/core"
 	"github.com/thoj/go-ircevent"
 )
 
-const repoUrl = "https://github.com/lovelaced/glitzz"
+const repoUrl = "https://github.com/bheru27/glitzz"
 
 func New(sender core.Sender, conf config.Config) (core.Module, error) {
 	rv := &info{

@@ -2,9 +2,9 @@ package core
 
 import (
 	"errors"
-	"github.com/lovelaced/glitzz/config"
-	"github.com/lovelaced/glitzz/logging"
-	"github.com/lovelaced/glitzz/util"
+	"github.com/bheru27/glitzz/config"
+	"github.com/bheru27/glitzz/logging"
+	"github.com/bheru27/glitzz/util"
 	"github.com/thoj/go-ircevent"
 )
 

@@ -1,7 +1,7 @@
 package core
 
 import (
-	"github.com/lovelaced/glitzz/logging"
+	"github.com/bheru27/glitzz/logging"
 	"github.com/thoj/go-ircevent"
 )
 

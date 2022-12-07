@@ -1,7 +1,7 @@
 package core
 
 import (
-	"github.com/lovelaced/glitzz/config"
+	"github.com/bheru27/glitzz/config"
 	"strings"
 	"testing"
 )

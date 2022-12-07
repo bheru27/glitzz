@@ -6,8 +6,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/lovelaced/glitzz/config"
-	"github.com/lovelaced/glitzz/core"
+	"github.com/bheru27/glitzz/config"
+	"github.com/bheru27/glitzz/core"
 	untappd2 "github.com/mdlayher/untappd"
 	"github.com/pkg/errors"
 )

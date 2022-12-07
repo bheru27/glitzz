@@ -2,9 +2,9 @@ package decide
 
 import (
 	"fmt"
-	"github.com/lovelaced/glitzz/config"
-	"github.com/lovelaced/glitzz/core"
-	"github.com/lovelaced/glitzz/util"
+	"github.com/bheru27/glitzz/config"
+	"github.com/bheru27/glitzz/core"
+	"github.com/bheru27/glitzz/util"
 	"regexp"
 	"strings"
 )

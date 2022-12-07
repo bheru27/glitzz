@@ -2,9 +2,9 @@ package tv
 
 import (
 	"fmt"
-	"github.com/lovelaced/glitzz/config"
-	"github.com/lovelaced/glitzz/core"
-	"github.com/lovelaced/glitzz/modules/tv/thetvdb-go"
+	"github.com/bheru27/glitzz/config"
+	"github.com/bheru27/glitzz/core"
+	"github.com/bheru27/glitzz/modules/tv/thetvdb-go"
 	"github.com/pkg/errors"
 	"net/http"
 	"strings"

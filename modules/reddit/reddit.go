@@ -2,9 +2,9 @@ package reddit
 
 import (
 	"github.com/jzelinskie/geddit"
-	"github.com/lovelaced/glitzz/config"
-	"github.com/lovelaced/glitzz/core"
-	"github.com/lovelaced/glitzz/logging"
+	"github.com/bheru27/glitzz/config"
+	"github.com/bheru27/glitzz/core"
+	"github.com/bheru27/glitzz/logging"
 	"github.com/pkg/errors"
 	"math/rand"
 	"strings"

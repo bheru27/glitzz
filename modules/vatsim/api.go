@@ -3,7 +3,7 @@ package vatsim
 import (
 	"errors"
 	"fmt"
-	"github.com/lovelaced/glitzz/logging"
+	"github.com/bheru27/glitzz/logging"
 	"io/ioutil"
 	"net/http"
 	"strings"

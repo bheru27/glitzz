@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/boreq/guinea"
-	"github.com/lovelaced/glitzz/config"
+	"github.com/bheru27/glitzz/config"
 )
 
 var defaultConfigCmd = guinea.Command{

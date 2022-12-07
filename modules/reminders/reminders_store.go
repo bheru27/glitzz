@@ -2,7 +2,7 @@ package reminders
 
 import (
 	"encoding/json"
-	"github.com/lovelaced/glitzz/logging"
+	"github.com/bheru27/glitzz/logging"
 	"io/ioutil"
 	"os"
 	"sync"

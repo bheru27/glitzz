@@ -1,8 +1,8 @@
 package core
 
 import (
-	"github.com/lovelaced/glitzz/logging"
-	"github.com/lovelaced/glitzz/util"
+	"github.com/bheru27/glitzz/logging"
+	"github.com/bheru27/glitzz/util"
 	"github.com/thoj/go-ircevent"
 	"time"
 )

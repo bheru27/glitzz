@@ -2,8 +2,8 @@ package links
 
 import (
 	"fmt"
-	"github.com/lovelaced/glitzz/config"
-	"github.com/lovelaced/glitzz/core"
+	"github.com/bheru27/glitzz/config"
+	"github.com/bheru27/glitzz/core"
 	"github.com/pkg/errors"
 	"github.com/thoj/go-ircevent"
 	"golang.org/x/net/html"

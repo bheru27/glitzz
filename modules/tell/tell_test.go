@@ -1,9 +1,9 @@
 package tell
 
 import (
-	"github.com/lovelaced/glitzz/config"
-	"github.com/lovelaced/glitzz/core"
-	"github.com/lovelaced/glitzz/tests"
+	"github.com/bheru27/glitzz/config"
+	"github.com/bheru27/glitzz/core"
+	"github.com/bheru27/glitzz/tests"
 	"github.com/thoj/go-ircevent"
 	"io/ioutil"
 	"os"

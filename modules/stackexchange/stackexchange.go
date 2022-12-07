@@ -2,8 +2,8 @@ package stackexchange
 
 import (
 	"github.com/ShikiCanKillServants/Stack-on-Go/stackongo"
-	"github.com/lovelaced/glitzz/config"
-	"github.com/lovelaced/glitzz/core"
+	"github.com/bheru27/glitzz/config"
+	"github.com/bheru27/glitzz/core"
 
 	"errors"
 	"html"

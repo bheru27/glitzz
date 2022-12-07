@@ -1,7 +1,7 @@
 package modules
 
 import (
-	"github.com/lovelaced/glitzz/config"
+	"github.com/bheru27/glitzz/config"
 	"testing"
 )
 

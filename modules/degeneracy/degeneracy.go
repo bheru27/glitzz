@@ -1,8 +1,8 @@
 package degeneracy
 
 import (
-	"github.com/lovelaced/glitzz/config"
-	"github.com/lovelaced/glitzz/core"
+	"github.com/bheru27/glitzz/config"
+	"github.com/bheru27/glitzz/core"
 	"github.com/thoj/go-ircevent"
 	"time"
 )

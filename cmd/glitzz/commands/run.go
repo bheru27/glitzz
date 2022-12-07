@@ -2,10 +2,10 @@ package commands
 
 import (
 	"github.com/boreq/guinea"
-	"github.com/lovelaced/glitzz/config"
-	"github.com/lovelaced/glitzz/core"
-	"github.com/lovelaced/glitzz/logging"
-	"github.com/lovelaced/glitzz/modules"
+	"github.com/bheru27/glitzz/config"
+	"github.com/bheru27/glitzz/core"
+	"github.com/bheru27/glitzz/logging"
+	"github.com/bheru27/glitzz/modules"
 	"github.com/pkg/errors"
 	"github.com/thoj/go-ircevent"
 	"strconv"

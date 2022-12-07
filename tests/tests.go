@@ -1,7 +1,7 @@
 package tests
 
 import (
-	"github.com/lovelaced/glitzz/util"
+	"github.com/bheru27/glitzz/util"
 	"github.com/thoj/go-ircevent"
 )
 
