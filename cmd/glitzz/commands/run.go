@@ -35,6 +35,12 @@ func runRun(c guinea.Context) error {
 	con := irc.IRC(conf.Nick, conf.User)
 	con.UseTLS = conf.TLS
 	con.TLSConfig.InsecureSkipVerify = true
+	
+	con.AddCallback("366", func(e *irc.Event) {
+		con.Privmsg(channel, "Test Message from SSL\n")
+		con.Quit()
+	})
+
 	if err = con.Connect(conf.Server); err != nil {
 		return errors.Wrap(err, "connection failed")
 	}
@@ -44,10 +50,17 @@ func runRun(c guinea.Context) error {
 	if err != nil {
 		return errors.Wrap(err, "error creating modules")
 	}
-	for _, room := range conf.Rooms {
-		runLog.Debug("Joining " + room)
-		con.Join(room)
-	}
+	//for _, room := range conf.Rooms {
+	//	runLog.Debug("Joining " + room)
+	//	con.Join(room)
+	//}
+	con.AddCallback("001", func(e *irc.Event) { 
+		for _, room := range conf.Rooms {
+			runLog.Debug("Joining " + room)
+			con.Join(room)
+		} 
+	})
+
 	con.AddCallback("PRIVMSG", func(e *irc.Event) {
 		go handleEvent(loadedModules, e)
 		go runCommand(loadedModules, e, sender, conf.CommandPrefix)
